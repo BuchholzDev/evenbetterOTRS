@@ -1,7 +1,7 @@
-// @name         Better OTRS Change View
-// @version      0.1.2
-// @description  Enhanced OTRS interface with improved workorder visualization, toggle button, and two-column layout, dynamic and readable Site Tile
-// @author       Erik Buchholz
+// Better OTRS Change View
+// 0.1.2
+// Enhanced OTRS interface with improved workorder visualization, toggle button, and two-column layout, dynamic and readable Site Tile
+// Erik Buchholz
 
 
 (function () {
