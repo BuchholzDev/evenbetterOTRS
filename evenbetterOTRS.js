@@ -1,5 +1,5 @@
 // @name         Better OTRS Change View
-// @version      0.1.1
+// @version      0.1.2
 // @description  Enhanced OTRS interface with improved workorder visualization, toggle button, and two-column layout, dynamic and readable Site Tile
 // @author       Erik Buchholz
 
@@ -13,11 +13,11 @@
             margin: 4px 0;
             border-radius: 6px;
             transition: all 0.2s ease;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
         .boWorkorderButton:hover {
             transform: translateY(-1px);
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
         }
         .bOTRS {
             display: flex;
@@ -37,19 +37,19 @@
             width: auto;
         }
         .bograyled {
-            background:rgba(158, 158, 158, 0.8);
+            background:rgba(158, 158, 158, 0.5);
             border-left: 4px solid #9e9e9e;
         }
         .boredled {
-            background:rgba(255, 51, 51, 0.8);
+            background:rgba(255, 51, 51, 0.5);
             border-left: 4px solid #ff3333;
         }
         .bogreenled {
-            background:rgba(80, 200, 120, 0.8);
+            background:rgba(80, 200, 120, 0.5);
             border-left: 4px solid #50C878;
         }
         .boyellowled {
-            background:rgba(254, 208, 2, 0.8);
+            background:rgba(254, 208, 2, 0.5);
             border-left: 4px solid #fecf02;
         }
         .boState {
