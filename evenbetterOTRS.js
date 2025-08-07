@@ -1,12 +1,8 @@
-// ==UserScript==
 // @name         Better OTRS Change View
-// @namespace    http://tampermonkey.net/
 // @version      0.1.1
-// @description  Enhanced OTRS interface with improved workorder visualization, toggle button, and two-column layout
+// @description  Enhanced OTRS interface with improved workorder visualization, toggle button, and two-column layout, dynamic and readable Site Tile
 // @author       Erik Buchholz
-// @match        https://otrs.pik-potsdam.de/otrs/index.pl?Action=AgentITSMChangeZoom;ChangeID*
-// @grant        none
-// ==/UserScript==
+
 
 (function () {
     // Inline CSS styles
@@ -17,11 +13,11 @@
             margin: 4px 0;
             border-radius: 6px;
             transition: all 0.2s ease;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
         }
         .boWorkorderButton:hover {
             transform: translateY(-1px);
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
         }
         .bOTRS {
             display: flex;
