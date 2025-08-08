@@ -1,7 +1,7 @@
 // Better OTRS Change View
 // @version 0.1.3
 // Enhanced OTRS interface with improved workorder visualization, toggle button, and two-column layout, dynamic and readable Site Tile
-// by Mirko
+// created by Mirko modifed by me
 
 
 (function () {
