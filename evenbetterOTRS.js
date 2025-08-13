@@ -37,19 +37,19 @@
             width: auto;
         }
         .bograyled {
-            background:rgba(158, 158, 158, 0.5);
+            background:rgba(158, 158, 158, 0.7);
             border-left: 4px solid #9e9e9e;
         }
         .boredled {
-            background:rgba(255, 51, 51, 0.5);
+            background:rgba(255, 51, 51, 0.7);
             border-left: 4px solid #ff3333;
         }
         .bogreenled {
-            background:rgba(80, 200, 120, 0.5);
+            background:rgba(80, 200, 120, 0.7);
             border-left: 4px solid #50C878;
         }
         .boyellowled {
-            background:rgba(254, 208, 2, 0.5);
+            background:rgba(254, 208, 2, 0.7);
             border-left: 4px solid #fecf02;
         }
         .boState {
